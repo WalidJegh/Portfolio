@@ -1,5 +1,5 @@
 body {
-  background-color: #5c48d2;
+  background-color: #5c48d2; 
   font-family: Verdana, Tahoma, Arial, sans-serif;
   font-size: 16px;
 }
@@ -15,95 +15,34 @@ h1 {
   width: 1024px;
   background-color: white;
   height: 500px;
-  margin: 0 auto;
   border-radius: 20px;
+  margin: 0 auto;
 }
 
 nav {
-height: 100px;
-display: flex;
-}
-
-nav a {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #190f33;
+  height: 100px;
   font-size: 20px;
-  text-decoration: none;
+  color: #190f33;
+  display: flex;
 }
 
 nav:hover {
   color: #5c48d2;
 }
 
-.image-top {
+a {
+  height: 100px;
+  font-size: 20px;
+  color: #190f33;
+  text-decoration: none;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-image {
   height: 400px;
   width: 1024px;
   object-fit: cover;
-}
-
-section {
-  padding: 100px;
-}
-
-#about-me {
-  background-color: white;
-}
-
-#education {
-  background-color: #eeeef7;
-}
-
-#projets {
-background: white;
-}
-
-#contact {
-  background-color: #eeeef7;
-}
-
-p {
-  line-height: 30px;
-}
-
-div {
-  display: flex;
-  justify-content: center;
-}
-
-.information {
-  height: 400px;
-}
-
-.ma-photo {
-  height: 250px;
-  width: 250px;
-  border-radius: 50%;
-  border: #fcc01a solid 3px;
-  object-fit: cover;
-}
-
-.nom-prenom {
-  background-color: #5c48d2;
-  font-size: 38px;
-  font-weight: bold;
-  color: #190f33;
-  margin-bottom: 50px;
-  margin-left: auto;
-}
-
-.ville {
-  font-size: 30px;
-  font-style: italic;
-  color: #190f33;
-  
-}
-
-h3 {
-  font-size: 26px;
-  /* font-weight: bold; */
-  color: #190f33;
-  margin-bottom: 40px;
 }
